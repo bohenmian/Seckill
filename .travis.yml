@@ -1,4 +1,4 @@
 language: java
-script: "mvn clean install -U"
+script: "mvn install -D maven.test.skip=true"
 jdk:
   - oraclejdk8
