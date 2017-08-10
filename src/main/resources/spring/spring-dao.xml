@@ -64,4 +64,9 @@
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <property name="basePackage" value="cn.edu.swpu.cins.dao"/>
     </bean>
+    <!--redisDao-->
+    <bean id="redisDao" class="cn.edu.swpu.cins.dao.cache.RedisDao">
+        <constructor-arg name="ip" value="${redis.ip}"/>
+        <constructor-arg name="port" value="${redis.port}"/>
+    </bean>
 </beans>
