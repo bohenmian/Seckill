@@ -2,6 +2,8 @@ package cn.edu.swpu.cins.dao;
 
 import cn.edu.swpu.cins.entity.SuccessKilled;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
+
 
 public interface SuccessKilledDao {
     /**
