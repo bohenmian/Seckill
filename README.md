@@ -1,4 +1,4 @@
- 
+ [![Build Status](https://travis-ci.org/bohenmian/Seckill.svg?branch=master)](https://travis-ci.org/bohenmian/Seckill)
  慕课网高并发课程 
 ================================================================================
 
